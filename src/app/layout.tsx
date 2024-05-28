@@ -1,5 +1,5 @@
-import { Inter } from 'next/font/google';
 import { AntdRegistry } from '@ant-design/nextjs-registry';
+import { Inter } from 'next/font/google';
 
 import StyledComponentsRegistry from '@/lib/registry';
 

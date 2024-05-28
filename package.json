@@ -1,13 +1,12 @@
 {
-    "name": "mini-zustand",
+    "name": "next.js project template",
     "version": "0.1.0",
     "private": true,
     "scripts": {
         "dev": "next dev -p 3001",
         "build": "cross-env ANALYZE=true next build",
         "start": "next start -p 3001",
-        "lint": "eslint src --fix",
-        "dev:serve": "pnpm -F server dev:serve"
+        "lint": "eslint src --fix"
     },
     "dependencies": {
         "@ant-design/nextjs-registry": "^1.0.0",

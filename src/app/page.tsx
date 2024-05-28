@@ -2,20 +2,29 @@
 
 import { useRouter } from 'next/navigation';
 
+import Button from '@/components/button';
+
 export default function Home() {
     const router = useRouter();
-    function toDemo() {
+
+    function toZustand() {
         router.push('/zustand_use_demo');
     }
+    function toAPI() {
+        router.push('/test_request');
+    }
+    function toAntd() {
+        router.push('/antd_use');
+    }
+
     return (
-        <div>
-            <h1>Mini Zustand</h1>
-            <button
-                className="group inline-block rounded bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
-                onClick={toDemo}
-            >
-                跳转zustand示例
-            </button>
+        <div className="w-full h-full flex justify-center items-center flex-col">
+            <h1 className="text-4xl font-bold">Next.js Project Template</h1>
+            <div className="flex mt-10">
+                <Button text={'Zustand Use'} click={toZustand} />
+                <Button text={'API Request Use'} click={toAPI} />
+                <Button text={'Antd Use'} click={toAntd} />
+            </div>
         </div>
     );
 }
