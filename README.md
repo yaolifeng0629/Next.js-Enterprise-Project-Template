@@ -2,8 +2,8 @@
 This is Next.js standard Next.js company proj0ect template. Facilitate faster development.
 
 ### Requirements
-pnpm version >= 8
-Node.js version >= v18
+-   pnpm version >= 8
+-   Node.js version >= v18
 
 ## Integrated Function
 -   [x] standard project directory
