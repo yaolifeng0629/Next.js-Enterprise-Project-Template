@@ -1,2 +1,2 @@
-# Next.js-Enterprise-Project-Framework
-Next.js Enterprise Project Framework
+# Next.js-Enterprise-Project-Template
+Next.js Enterprise Project Template
