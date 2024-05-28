@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google';
+import { AntdRegistry } from '@ant-design/nextjs-registry';
 
 import StyledComponentsRegistry from '@/lib/registry';
 
@@ -20,7 +21,9 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={inter.className}>
-                <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+                <StyledComponentsRegistry>
+                    <AntdRegistry>{children}</AntdRegistry>
+                </StyledComponentsRegistry>
             </body>
         </html>
     );
