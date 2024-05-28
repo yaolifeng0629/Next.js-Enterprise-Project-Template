@@ -33,7 +33,7 @@ please should note that, if you test api request, please run following command:
 ```bash
 cd server
 
-pnpm dev:serve
+pnpm start
 ```
 
 ## Deploy on Vercel
