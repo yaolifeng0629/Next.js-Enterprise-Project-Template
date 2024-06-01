@@ -4,7 +4,7 @@ const app = express();
 
 const corsOptions = {
     origin: 'http://localhost:3001',
-    credentials: true // 允许携带 cookies
+    credentials: true
 };
 app.use(cors(corsOptions));
 
@@ -25,7 +25,7 @@ app.get(
         }
     ) => {
         res.status(200).send({
-            data: 'Test API Response',
+            data: 'Test API Response Data',
             code: 200,
             msg: ''
         });

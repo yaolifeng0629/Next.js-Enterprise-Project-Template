@@ -16,6 +16,9 @@ export default function Home() {
     function toAntd() {
         router.push('/antd_use');
     }
+    function toVitest() {
+        router.push('/test_vitest');
+    }
 
     return (
         <div className="w-full h-full flex justify-center items-center flex-col">
@@ -24,6 +27,7 @@ export default function Home() {
                 <Button text={'Zustand Use'} click={toZustand} />
                 <Button text={'API Request Use'} click={toAPI} />
                 <Button text={'Antd Use'} click={toAntd} />
+                <Button text={'Vitest'} click={toVitest} />
             </div>
         </div>
     );

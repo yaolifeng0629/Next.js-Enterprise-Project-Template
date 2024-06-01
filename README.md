@@ -1,5 +1,5 @@
 ## Introduce
-This is Next.js standard Next.js company proj0ect template. Facilitate faster development.
+This is Next.js standard Next.js company project template. Facilitate faster development.
 
 ### Requirements
 -   pnpm version >= 8
@@ -15,6 +15,7 @@ This is Next.js standard Next.js company proj0ect template. Facilitate faster de
 -   [x] Basic api request example
 -   [x] important package order
 -   [x] Prettier format config
+-   [x] Integrated Vitest testing
 
 ## Getting Started
 
@@ -28,7 +29,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-please should note that, if you test api request, please run following command:
+please should note that,le if you test api request, pase run following command:
 
 ```bash
 cd server

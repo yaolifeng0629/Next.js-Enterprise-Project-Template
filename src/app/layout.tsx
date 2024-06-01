@@ -9,8 +9,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'Mini Zustand',
-    description: '🐻 Bear necessities for state management in React'
+    title: 'Next.js Project Template',
+    description: 'Next.js Project Template'
 };
 
 export default function RootLayout({

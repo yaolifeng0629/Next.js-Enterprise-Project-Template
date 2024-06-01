@@ -1,3 +1,7 @@
 export default function NotFound() {
-    return <div>我是自定义404页面</div>;
+    return (
+        <div className="grid h-screen place-content-center bg-white px-4">
+            <h1 className="uppercase tracking-widest text-gray-500">404 | Not Found</h1>
+        </div>
+    );
 }

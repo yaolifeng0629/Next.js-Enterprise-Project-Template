@@ -16,10 +16,10 @@ interface UserState {
 
 const useUserStore = create<UserState>((set) => ({
     userInfo: {
-        name: 'zhangsan',
+        name: 'John',
         age: 23
     },
-    token: 'S1',
+    token: 'xxx',
     updateUserInfo: (userInfo) => set({ userInfo }),
     updateAge: (age) =>
         set(
