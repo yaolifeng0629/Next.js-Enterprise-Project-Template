@@ -56,10 +56,7 @@ instance.interceptors.request.use(
         // add auth info, examples: JWT Token request config
         const token = getToken();
         if (token) {
-            config.headers = {
-                ...config.headers,
-                Authorization: `Bearer ${token}`
-            };
+            config.headers.set('Authorization', `Bearer ${token}`);
         }
         return config;
     },
